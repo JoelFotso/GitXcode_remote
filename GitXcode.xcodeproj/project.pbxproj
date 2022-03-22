@@ -14,6 +14,7 @@
 		0A2A547D27E9EDF1003F57F2 /* GitXcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A547C27E9EDF1003F57F2 /* GitXcodeTests.swift */; };
 		0A2A548727E9EDF1003F57F2 /* GitXcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A548627E9EDF1003F57F2 /* GitXcodeUITests.swift */; };
 		0A2A548927E9EDF1003F57F2 /* GitXcodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A548827E9EDF1003F57F2 /* GitXcodeUITestsLaunchTests.swift */; };
+		0ACB407B27E9FFB300B1C47C /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB407A27E9FFB300B1C47C /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0A2A548227E9EDF1003F57F2 /* GitXcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitXcodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A2A548627E9EDF1003F57F2 /* GitXcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitXcodeUITests.swift; sourceTree = "<group>"; };
 		0A2A548827E9EDF1003F57F2 /* GitXcodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitXcodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0ACB407A27E9FFB300B1C47C /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				0A2A546B27E9EDEF003F57F2 /* GitXcodeApp.swift */,
 				0A2A546D27E9EDEF003F57F2 /* MainView.swift */,
+				0ACB407A27E9FFB300B1C47C /* SecondView.swift */,
 				0A2A546F27E9EDF0003F57F2 /* Assets.xcassets */,
 				0A2A547127E9EDF1003F57F2 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACB407B27E9FFB300B1C47C /* SecondView.swift in Sources */,
 				0A2A546E27E9EDEF003F57F2 /* MainView.swift in Sources */,
 				0A2A546C27E9EDEF003F57F2 /* GitXcodeApp.swift in Sources */,
 			);
