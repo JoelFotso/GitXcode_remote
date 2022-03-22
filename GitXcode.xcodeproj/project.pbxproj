@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A2A546C27E9EDEF003F57F2 /* GitXcodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A546B27E9EDEF003F57F2 /* GitXcodeApp.swift */; };
-		0A2A546E27E9EDEF003F57F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A546D27E9EDEF003F57F2 /* ContentView.swift */; };
+		0A2A546E27E9EDEF003F57F2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A546D27E9EDEF003F57F2 /* MainView.swift */; };
 		0A2A547027E9EDF1003F57F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2A546F27E9EDF0003F57F2 /* Assets.xcassets */; };
 		0A2A547327E9EDF1003F57F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2A547227E9EDF1003F57F2 /* Preview Assets.xcassets */; };
 		0A2A547D27E9EDF1003F57F2 /* GitXcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A547C27E9EDF1003F57F2 /* GitXcodeTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		0A2A546827E9EDEF003F57F2 /* GitXcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitXcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A2A546B27E9EDEF003F57F2 /* GitXcodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitXcodeApp.swift; sourceTree = "<group>"; };
-		0A2A546D27E9EDEF003F57F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A2A546D27E9EDEF003F57F2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		0A2A546F27E9EDF0003F57F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A2A547227E9EDF1003F57F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0A2A547827E9EDF1003F57F2 /* GitXcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitXcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				0A2A546B27E9EDEF003F57F2 /* GitXcodeApp.swift */,
-				0A2A546D27E9EDEF003F57F2 /* ContentView.swift */,
+				0A2A546D27E9EDEF003F57F2 /* MainView.swift */,
 				0A2A546F27E9EDF0003F57F2 /* Assets.xcassets */,
 				0A2A547127E9EDF1003F57F2 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A2A546E27E9EDEF003F57F2 /* ContentView.swift in Sources */,
+				0A2A546E27E9EDEF003F57F2 /* MainView.swift in Sources */,
 				0A2A546C27E9EDEF003F57F2 /* GitXcodeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
